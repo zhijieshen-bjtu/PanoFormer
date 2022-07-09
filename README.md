@@ -1,2 +1,2 @@
 # PanoFormer
-This is the official implementation of Panoformer, so stay tuned!
+This is the pytorch implementation of Panoformer, so stay tuned!
