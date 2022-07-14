@@ -1,6 +1,6 @@
 ## PanoFormer
 This is the pytorch implementation of PanoFormer!
-## Dataset
+## Datasets
 ## Requirements
 ## Thanks
 We thank the authors of the codes below:  
