@@ -26,6 +26,7 @@ If you find our work useful, please consider citing：
   organization={IEEE}
 }
 ```
+And also these:  
 ```
 @article{jiang2021unifuse,
       title={UniFuse: Unidirectional Fusion for 360$^{\circ}$ Panorama Depth Estimation}, 
