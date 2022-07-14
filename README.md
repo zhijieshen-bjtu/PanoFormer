@@ -6,6 +6,7 @@ This is the pytorch implementation of PanoFormer!
 We thank the authors of the codes below:  
 https://github.com/alibaba/UniFuse-Unidirectional-Fusion  
 https://github.com/ZhendongWang6/Uformer  
+https://github.com/mty1203/spherenet  
 If you find our work useful, please consider citing： 
 ```
 @article{shen2022panoformer,
