@@ -2,6 +2,7 @@
 ## PanoFormer: Panorama Transformer for Indoor 360 Depth Estimation
 ## Zhijie Shen, Chunyu Lin, Kang Liao, Lang Nie, Zishuo Zheng, Yao Zhao
 ## https://arxiv.org/abs/2203.09283
+## The code is reproducted based on uformer:https://github.com/ZhendongWang6/Uformer
 """
 
 import torch
