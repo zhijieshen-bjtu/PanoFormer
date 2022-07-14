@@ -26,6 +26,7 @@ If you find our work useful, please consider citing：
   organization={IEEE}
 }
 ```
+```
 @article{jiang2021unifuse,
       title={UniFuse: Unidirectional Fusion for 360$^{\circ}$ Panorama Depth Estimation}, 
       author={Hualie Jiang and Zhe Sheng and Siyu Zhu and Zilong Dong and Rui Huang},
@@ -33,6 +34,7 @@ If you find our work useful, please consider citing：
 	  year={2021},
 	  publisher={IEEE}
 }
+```
 ```
 @InProceedings{Wang_2022_CVPR,
     author    = {Wang, Zhendong and Cun, Xiaodong and Bao, Jianmin and Zhou, Wengang and Liu, Jianzhuang and Li, Houqiang},
@@ -43,12 +45,11 @@ If you find our work useful, please consider citing：
     pages     = {17683-17693}
 }
 ```
+```
 @article{zhu2020deformable,
   title={Deformable detr: Deformable transformers for end-to-end object detection},
   author={Zhu, Xizhou and Su, Weijie and Lu, Lewei and Li, Bin and Wang, Xiaogang and Dai, Jifeng},
   journal={arXiv preprint arXiv:2010.04159},
   year={2020}
 }
-```
-
 ```
