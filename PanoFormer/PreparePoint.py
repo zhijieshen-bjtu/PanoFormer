@@ -10,9 +10,7 @@ import math
 import numpy as np
 import time
 from torch import einsum
-from networkv5.deformableconv import *
-from network6.DBAT import *
-from network6.Equioffset import *
+from PanoFormer.PSA import *
 
 
 class Prepare_equi_offset(nn.Module):
