@@ -1,7 +1,7 @@
 ## PanoFormer
 This is the pytorch implementation of PanoFormer!
 ## Datasets
-You should download and prepare the datasets from the official webpage, *[Stanford2D3D](http://buildingparser.stanford.edu/dataset.html#Download))*, *[Matterport3D](https://niessner.github.io/Matterport/)*, *[3D60](https://vcl3d.github.io/3D60/)*
+You should download and prepare the datasets from the official webpage, *[Stanford2D3D](http://buildingparser.stanford.edu/dataset.html#Download)*, *[Matterport3D](https://niessner.github.io/Matterport/)*, *[3D60](https://vcl3d.github.io/3D60/)*. Unfortunately, PanoSunCG is not avaliable now.
 ## Requirements
 ## Thanks
 We thank the authors of the codes below:  
