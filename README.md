@@ -6,9 +6,6 @@ The motivation of PanoFormer.
 <img src="/img/PanoFormer.png">
 Framework of Panoformer.
 <center class="half">
-    ![描述]("/img/stlm.png")![描述]("/img/psa.png")
-</center>
-<center class="half">
 <img src="/img/stlm.png" width="50%">
 <img src="/img/psa.png" width="50%">
 </center>
