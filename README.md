@@ -9,6 +9,12 @@ Framework of Panoformer.
 <img src="/img/stlm.png" width="50%">
 <img src="/img/psa.png" width="50%">
 </center>
+<table>
+    <tr>
+        <td ><center><img src="/img/stlm.png" >图1  范冰冰 </center></td>
+        <td ><center><img src="/img/psa.png"  >图2 范冰冰</center></td>
+    </tr>
+</table>
 
 
 
