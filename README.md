@@ -2,8 +2,8 @@
 This is the pytorch implementation of PanoFormer!  
 # Methodology
 <table>
-	<tr colspan="2"><td width="1200" height="200"><center><img src="/img/concept.png">The motivation of PanoFormer.</center></td></tr>
-	<tr colspan="2"><td width="1000" height="200"><center><img src="/img/PanoFormer.png">Framework of Panoformer.</center></td></tr>
+	<tr><th colspan="2" width="1200" height="200"><center><img src="/img/concept.png">The motivation of PanoFormer.</center></th></tr>
+	<tr><th colspan="2" width="1000" height="200"><center><img src="/img/PanoFormer.png">Framework of Panoformer.</center></th></tr>
     <tr>
         <td ><center><img src="/img/stlm.png" >STLM</center></td>
         <td ><center><img src="/img/psa.png">PSA</center></td>
