@@ -3,7 +3,7 @@ This is the pytorch implementation of PanoFormer!
 # Methodology
 <table>
 	<tr ><center><img src="/img/concept.png" width="1200" height="200">The motivation of PanoFormer.</center></tr>
-	<tr ><center><img src="/img/PanoFormer.png" width="1200" height="200">Framework of Panoformer.</center></tr>
+	<tr ><center><img src="/img/PanoFormer.png" width="1200" height="300">Framework of Panoformer.</center></tr>
     <tr>
         <td ><center><img src="/img/stlm.png" >STLM</center></td>
         <td ><center><img src="/img/psa.png">PSA</center></td>
