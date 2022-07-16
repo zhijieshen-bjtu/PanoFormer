@@ -1,10 +1,10 @@
-## PanoFormer
+# PanoFormer
 This is the pytorch implementation of PanoFormer!
-## Datasets
+# Datasets
 You should download and prepare the datasets from the official webpage, *[Stanford2D3D](http://buildingparser.stanford.edu/dataset.html#Download)*, *[Matterport3D](https://niessner.github.io/Matterport/)*, *[3D60](https://vcl3d.github.io/3D60/)*. Unfortunately, PanoSunCG is not avaliable now. For Matterport3D. please follow the processing strategy in *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion/blob/main/UniFuse/Matterport3D/README.md)*.
-## Metrics
-## Requirements
-## Thanks
+# Metrics
+# Requirements
+# Acknowledgements
 We thank the authors of the codes below:  
 *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion)*, *[Uformer](https://github.com/ZhendongWang6/Uformer)*, *[SphereNet](https://github.com/mty1203/spherenet)*, *[DeformableAtt](https://github.com/yhy258/Deformable_Attention__DeformableDETR)*  
 If you find our work useful, please consider citing： 
