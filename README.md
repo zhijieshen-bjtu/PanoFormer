@@ -3,7 +3,7 @@ This is the pytorch implementation of PanoFormer!
 # Methodology
 <img src="/img/concept.png">
 <div align=center>
-<img src="/img/stlm.png" width="80%">
+<img src="/img/stlm.png" width="60%">
 </div>
 <img src="/img/PanoFormer.png" width="50%">
 
