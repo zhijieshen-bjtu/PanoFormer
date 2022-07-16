@@ -2,10 +2,11 @@
 This is the pytorch implementation of PanoFormer!  
 # Methodology
 <img src="/img/concept.png">
-<div align=center>
-<img src="/img/stlm.png" width="60%">
-</div>
-<img src="/img/PanoFormer.png" width="50%">
+The motivation of PanoFormer.
+<img src="/img/PanoFormer.png">
+Framework of Panoformer.
+<img src="/img/stlm.png" width="50%"><img src="/img/psa.png" width="50%">
+
 
 # Datasets
 You should download and prepare the datasets from the official webpage, *[Stanford2D3D](http://buildingparser.stanford.edu/dataset.html#Download)*, *[Matterport3D](https://niessner.github.io/Matterport/)*, *[3D60](https://vcl3d.github.io/3D60/)*. Unfortunately, PanoSunCG is not avaliable now. For Matterport3D. please follow the processing strategy in *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion/blob/main/UniFuse/Matterport3D/README.md)*.
