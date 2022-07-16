@@ -2,6 +2,7 @@
 This is the pytorch implementation of PanoFormer!  
 # Methodology
 <img src="/img/concept.png">
+<img src="/img/stlm.png">
 <img src="/img/PanoFormer.png" width="50%">
 
 # Datasets
