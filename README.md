@@ -6,8 +6,8 @@ The motivation of PanoFormer.
 <img src="/img/PanoFormer.png">
 Framework of Panoformer.
 <table>
-	<td ><center><img src="/img/stlm.png" >STLM</center></td>
-	<td ><center><img src="/img/stlm.png" >STLM</center></td>
+	<tr ><center><img src="/img/stlm.png" >STLM</center></tr>
+	<tr ><center><img src="/img/stlm.png" >STLM</center></tr>
     <tr>
         <td ><center><img src="/img/stlm.png" >STLM</center></td>
         <td ><center><img src="/img/psa.png">PSA</center></td>
