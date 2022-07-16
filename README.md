@@ -5,14 +5,12 @@ This is the pytorch implementation of PanoFormer!
 The motivation of PanoFormer.
 <img src="/img/PanoFormer.png">
 Framework of Panoformer.
-<center class="half">
-<img src="/img/stlm.png" width="50%">
-<img src="/img/psa.png" width="50%">
-</center>
 <table>
+	<td ><center><img src="/img/stlm.png" >STLM</center></td>
+	<td ><center><img src="/img/stlm.png" >STLM</center></td>
     <tr>
-        <td ><center><img src="/img/stlm.png" >图1  范冰冰 </center></td>
-        <td ><center><img src="/img/psa.png"  >图2 范冰冰</center></td>
+        <td ><center><img src="/img/stlm.png" >STLM</center></td>
+        <td ><center><img src="/img/psa.png">PSA</center></td>
     </tr>
 </table>
 
