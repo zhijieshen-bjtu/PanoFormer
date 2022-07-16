@@ -8,7 +8,11 @@ Framework of Panoformer.
 <center class="half">
     ![描述]("/img/stlm.png")![描述]("/img/psa.png")
 </center>
-<img src="/img/stlm.png" width="50%"><img src="/img/psa.png" width="50%">
+<center class="half">
+<img src="/img/stlm.png" width="50%">
+<img src="/img/psa.png" width="50%">
+</center>
+
 
 
 # Datasets
