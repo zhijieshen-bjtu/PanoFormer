@@ -1,5 +1,5 @@
 # PanoFormer
-This is the pytorch implementation of PanoFormer (PanoFormer: Panorama Transformer for Indoor 360° Depth Estimation, ECCV 2022)!  
+:boom::boom::boom:This is the pytorch implementation of PanoFormer (PanoFormer: Panorama Transformer for Indoor 360° Depth Estimation, ECCV 2022)!  
 # Methodology
 <table>
 	<tr><th colspan="2" width="1200" height="200"><center><img src="/img/concept.png">The motivation of PanoFormer.</center></th></tr>
