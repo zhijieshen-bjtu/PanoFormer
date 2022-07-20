@@ -18,7 +18,10 @@ You should download and prepare the datasets from the official webpage, *[Stanfo
 The version of *[Stanford2D3D and Matterport3D](https://zenodo.org/record/3492155#.YteQ1flBxPZ)* that contained in *[3D60](https://vcl3d.github.io/3D60/)* have a problem: The processed Matterport3D and Stanford2D3D leak the depth information via pixel brightness (pointed by our reviewers, we want to list it to alert the subsquent researchers).  
 :heart:*Recommendation datasets*  
 *[Stanford2D3D](http://buildingparser.stanford.edu/dataset.html#Download)*,*[Pano3D](https://vcl3d.github.io/Pano3D/download/)*(with a solid baseline), and *[Structured3D](https://structured3d-dataset.org/)*  
-# Metrics
+# Metrics  
+For calculating MAE and MRE, please refer to *[SliceNet](https://github.com/crs4/SliceNet/blob/main/misc/eval.py)*
+>>  ARD = (np.abs((pred_depth_norm - input_gt_depth_norm)) / input_gt_depth_norm).mean()
+    SRD = (((pred_depth_norm - input_gt_depth_norm)** 2) / input_gt_depth_norm).mean()
 # Requirements
 # Acknowledgements
 We thank the authors of the projects below:  
