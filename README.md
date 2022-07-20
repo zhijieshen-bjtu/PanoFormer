@@ -19,9 +19,7 @@ The version of *[Stanford2D3D and Matterport3D](https://zenodo.org/record/349215
 :heart:*Recommendation datasets*  
 *[Stanford2D3D](http://buildingparser.stanford.edu/dataset.html#Download)*,*[Pano3D](https://vcl3d.github.io/Pano3D/download/)*(with a solid baseline), and *[Structured3D](https://structured3d-dataset.org/)*  
 # Metrics  
-For calculating MAE and MRE, please refer to *[SliceNet](https://github.com/crs4/SliceNet/blob/main/misc/eval.py)*
->  ARD = (np.abs((pred_depth_norm - input_gt_depth_norm)) / input_gt_depth_norm).mean()  
->  SRD = (((pred_depth_norm - input_gt_depth_norm)** 2) / input_gt_depth_norm).mean()
+For calculating MAE and MRE, please refer to *[SliceNet](https://github.com/crs4/SliceNet/blob/main/misc/eval.py)* For others, please refer to *[Unifuse]([https://github.com/crs4/SliceNet/blob/main/misc/eval.py](https://github.com/alibaba/UniFuse-Unidirectional-Fusion](https://github.com/alibaba/UniFuse-Unidirectional-Fusion/blob/main/UniFuse/metrics.py)*
 # Requirements
 # Acknowledgements
 We thank the authors of the projects below:  
