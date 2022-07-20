@@ -17,7 +17,7 @@ You should download and prepare the datasets from the official webpage, *[Stanfo
 # Metrics
 # Requirements
 # Acknowledgements
-We thank the authors of the codes below:  
+We thank the authors of the projects below:  
 *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion)*, *[Uformer](https://github.com/ZhendongWang6/Uformer)*, *[SphereNet](https://github.com/mty1203/spherenet)*, *[DeformableAtt](https://github.com/yhy258/Deformable_Attention__DeformableDETR)*  
 If you find our work useful, please consider citing： 
 ```
