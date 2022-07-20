@@ -15,7 +15,7 @@
 # Datasets
 You should download and prepare the datasets from the official webpage, *[Stanford2D3D](http://buildingparser.stanford.edu/dataset.html#Download)*, *[Matterport3D](https://niessner.github.io/Matterport/)*, *[3D60](https://vcl3d.github.io/3D60/)*. Unfortunately, PanoSunCG is not avaliable now. For Matterport3D. please follow the processing strategy in *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion/blob/main/UniFuse/Matterport3D/README.md)*.  
 :exclamation:__Attention__  
-The version of *[Stanford2D3D and Matterport3D](https://zenodo.org/record/3492155#.YteQ1flBxPZ)* that contained in *[3D60](https://vcl3d.github.io/3D60/)* have a problem: The processed Matterport3D and Stanford2D3D leak the depth information via pixel brightness (pointed by our reviewers, we want to alert the subsquent researchers).
+The version of *[Stanford2D3D and Matterport3D](https://zenodo.org/record/3492155#.YteQ1flBxPZ)* that contained in *[3D60](https://vcl3d.github.io/3D60/)* have a problem: The processed Matterport3D and Stanford2D3D leak the depth information via pixel brightness (pointed by our reviewers, we want to list it to alert the subsquent researchers).
 # Metrics
 # Requirements
 # Acknowledgements
