@@ -23,6 +23,8 @@ For calculating MAE and MRE, please refer to *[SliceNet](https://github.com/crs4
 :heart:*New metrics*  
 Coming soon.
 # Requirements
+# Pre-trained models
+On my way!
 # Acknowledgements
 We thank the authors of the projects below:  
 *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion)*, *[Uformer](https://github.com/ZhendongWang6/Uformer)*, *[SphereNet](https://github.com/mty1203/spherenet)*, *[DeformableAtt](https://github.com/yhy258/Deformable_Attention__DeformableDETR)*  
