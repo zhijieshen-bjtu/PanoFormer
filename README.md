@@ -24,7 +24,8 @@ For calculating MAE and MRE, please refer to *[SliceNet](https://github.com/crs4
 Coming soon.
 # Package dependencies
 The project is built with PyTorch 1.7.1, Python3.8, CUDA11.1. For package dependencies, you can install them by:
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 # Pre-trained models
 On my way!
