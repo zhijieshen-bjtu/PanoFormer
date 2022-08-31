@@ -22,7 +22,10 @@ The version of *[Stanford2D3D and Matterport3D](https://zenodo.org/record/349215
 For calculating MAE and MRE, please refer to *[SliceNet](https://github.com/crs4/SliceNet/blob/main/misc/eval.py)*. For others, please refer to *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion/blob/main/UniFuse/metrics.py)*.  
 :heart:*New metrics*  
 Coming soon.
-# Requirements
+# Package dependencies
+The project is built with PyTorch 1.7.1, Python3.8, CUDA11.1. For package dependencies, you can install them by:
+```pip install -r requirements.txt
+```
 # Pre-trained models
 On my way!
 # Acknowledgements
