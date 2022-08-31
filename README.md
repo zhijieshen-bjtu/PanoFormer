@@ -23,7 +23,7 @@ For calculating MAE and MRE, please refer to *[SliceNet](https://github.com/crs4
 :heart:*New metrics*  
 Coming soon.
 # Package dependencies
-The project is built with PyTorch 1.7.1, Python3.8, CUDA11.1. For package dependencies, you can install them by:
+The project is built with PyTorch 1.7.1, Python3.8, CUDA11.1, NVIDIA GeForce RTX 3090. For package dependencies, you can install them by:
 ```
 pip install -r requirements.txt
 ```
