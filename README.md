@@ -25,7 +25,7 @@ For P-RMSE:
 You can use the tool to get these regions with large distortion (top and bottom faces in the cube projection format), 
 and then use them to calculate the standard RMSE.   
 For LRCE:        
-In fact, the reviewers disputed this metric. We encourage subsequent researchers to make better use of the seamless nature of panoramas.
+We encourage subsequent researchers to make better use of the seamless nature of panoramas.
 # Package dependencies
 The project is built with PyTorch 1.7.1, Python3.8, CUDA11.1, NVIDIA GeForce RTX 3090. For package dependencies, you can install them by:
 ```
