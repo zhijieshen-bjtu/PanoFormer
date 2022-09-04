@@ -22,7 +22,7 @@ The version of *[Stanford2D3D and Matterport3D](https://zenodo.org/record/349215
 For calculating MAE and MRE, please refer to *[SliceNet](https://github.com/crs4/SliceNet/blob/main/misc/eval.py)*. For others, please refer to *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion/blob/main/UniFuse/metrics.py)*.  
 :heart:*New metrics*  
 For P-RMSE:  
-You can use the tool to get these regions with large distortion (top and bottom faces in the cube projection format), 
+You can use the *[Tool](https://github.com/timy90022/Perspective-and-Equirectangular)* to get these regions with large distortion (top and bottom faces in the cube projection format), 
 and then use them to calculate the standard RMSE.   
 For LRCE:        
 We encourage subsequent researchers to make better use of the seamless nature of panoramas.
