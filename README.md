@@ -36,8 +36,13 @@ Please download the pretrained model (to load to train) at the link *[Model_pret
 ```
 PanoFomer/tmp/panodepth/models/
 ```
-Your datasets shoud be organized as below:
-
+Your datasets and the splits shoud be organized as below:
+```
+../data/xxxxx/ ()
+```
+```
+PanoFormer/splitsxxxx/xxxx_train.txt
+```
 then run the command:
 ```
 python train.py
