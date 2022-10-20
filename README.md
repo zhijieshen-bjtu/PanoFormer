@@ -31,7 +31,7 @@ The project is built with PyTorch 1.7.1, Python3.8, CUDA10.1, NVIDIA GeForce RTX
 ```
 pip install -r requirements.txt
 ```
-# Train
+# To start
 Please download the pretrained model (to load to train) at the link *[Model_pretrain(click me)](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*, and put it in the files below:
 ```
 |-- PanoFormer
