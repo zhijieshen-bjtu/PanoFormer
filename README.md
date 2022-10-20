@@ -27,12 +27,18 @@ and then use them to calculate the standard RMSE.
 For LRCE:        
 We encourage subsequent researchers to make better use of the seamless nature of panoramas.
 # Package dependencies
-The project is built with PyTorch 1.7.1, Python3.8, CUDA11.1, NVIDIA GeForce RTX 3090. For package dependencies, you can install them by:
+The project is built with PyTorch 1.7.1, Python3.8, CUDA10.1, NVIDIA GeForce RTX 3090. For package dependencies, you can install them by:
 ```
 pip install -r requirements.txt
 ```
 # Test
-Please download the pretrained model at the link *[Model_pretrain(click me)](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*, prepare your datasets and run
+Please download the pretrained model at the link *[Model_pretrain(click me)](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*, and put it in the files below:
+```
+PanoFomer/PanoFormer/tmp/panodepth/model/
+```
+Your datasets shoud be organized as below:
+
+then run the command:
 ```
 python train.py
 ```
