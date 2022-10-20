@@ -80,7 +80,7 @@ DATASETS
     |   	|-- pano
     |   		|-- depth
     |   		|-- rgb
-    |-- ...   
+    |	|-- ...   
     |-- 3D60
     |	|-- Matterport3D
     |	|-- Stanford2D3D
