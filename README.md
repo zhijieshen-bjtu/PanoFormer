@@ -32,7 +32,7 @@ The project is built with PyTorch 1.7.1, Python3.8, CUDA11.1, NVIDIA GeForce RTX
 pip install -r requirements.txt
 ```
 # Pre-trained models
-On my way, stay tuned!
+*[Unifuse](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*
 # Acknowledgements
 We thank the authors of the projects below:  
 *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion)*, *[Uformer](https://github.com/ZhendongWang6/Uformer)*, *[SphereNet](https://github.com/mty1203/spherenet)*, *[DeformableAtt](https://github.com/ZhuWenjie98/DL-project/blob/main/models/deformable_attn.py)*  
