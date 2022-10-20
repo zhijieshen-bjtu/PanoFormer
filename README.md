@@ -34,18 +34,59 @@ pip install -r requirements.txt
 # Test
 Please download the pretrained model (to load to train) at the link *[Model_pretrain(click me)](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*, and put it in the files below:
 ```
-PanoFomer/tmp/panodepth/models/
+|-- PanoFormer
+    |-- tmp
+    |   |-- panodepth
+    |		|--train
+    |		|--val
+    |		|--models
+    |			|--weights_pretrain
+```
+And you can run the command:
+```
+python train.py
 ```
 Your datasets and the splits shoud be organized as below:
 ```
-../data/xxxxx/ ()
+|-- PanoFormer
+    |-- network
+    |-- splitsm3d
+    |   |-- matterport3d_train.txt
+    |   |-- matterport3d_val.txt
+    |   |-- matterport3d_test.txt
+    |-- splitss2d3d
+    |   |-- stanford2d3d_train.txt
+    |   |-- stanford2d3d_val.txt
+    |   |-- stanford2d3d_test.txt
+    |-- ...
+    |-- ...   
+    |-- train.py
+    |-- trainer.py
+    |-- metric.py
+    |-- ...
+    |-- ...
 ```
 ```
-PanoFormer/splitsxxxx/xxxx_train.txt
-```
-then run the command:
-```
-python train.py
+|-- datasets
+    |-- Matterport3D
+    |   |-- 17DRP5sb8fy
+    |		|-- pano_depth
+    |		|-- pano_skybox_color
+    |	|--...
+    |-- Stanford2D3D
+    |   |-- area_1
+    |   	|-- pano
+    |   		|-- depth
+    |   		|-- rgb
+    |-- ...   
+    |-- 3D60
+    |	|-- Matterport3D
+    |	|-- Stanford2D3D
+    |   	|-- area_1
+    |			|--xxx_color_xxx.png
+    |			|--xxx_depth_xxx.exr
+    |	|-- SunCG
+    |-- ...
 ```
 # Acknowledgements
 We thank the authors of the projects below:  
