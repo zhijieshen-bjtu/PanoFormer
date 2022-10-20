@@ -46,7 +46,7 @@ And you can run the command:
 ```
 python train.py
 ```
-Your datasets and the splits shoud be organized as below:
+Your datasets and the splits shoud be organized as below:  
 SPLITS  
 ```
 |-- PanoFormer
@@ -67,7 +67,7 @@ SPLITS
     |-- ...
     |-- ...
 ```
-SPLITS  
+DATASETS  
 ```
 |-- datasets
     |-- Matterport3D
