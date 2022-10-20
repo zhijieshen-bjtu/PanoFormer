@@ -32,7 +32,7 @@ The project is built with PyTorch 1.7.1, Python3.8, CUDA11.1, NVIDIA GeForce RTX
 pip install -r requirements.txt
 ```
 # Test
-Please download the pretrained model at *[Model_pretrian](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*, prepare your datasets and run
+Please download the pretrained model at the link *[Model_pretrain(click me)](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*, prepare your datasets and run
 ```
 python train.py
 ```
