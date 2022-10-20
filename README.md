@@ -34,7 +34,7 @@ pip install -r requirements.txt
 # Test
 Please download the pretrained model at the link *[Model_pretrain(click me)](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*, and put it in the files below:
 ```
-PanoFomer/PanoFormer/tmp/panodepth/model/
+PanoFomer/tmp/panodepth/models/
 ```
 Your datasets shoud be organized as below:
 
