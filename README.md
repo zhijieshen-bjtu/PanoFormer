@@ -95,12 +95,13 @@ We thank the authors of the projects below:
 *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion)*, *[Uformer](https://github.com/ZhendongWang6/Uformer)*, *[SphereNet](https://github.com/mty1203/spherenet)*, *[DeformableAtt](https://github.com/ZhuWenjie98/DL-project/blob/main/models/deformable_attn.py)*  
 If you find our work useful, please consider citing： 
 ```
-@article{shen2022panoformer,
-  title={PanoFormer: Panorama transformer for indoor 360 depth estimation},
+@inproceedings{shen2022panoformer,
+  title={PanoFormer: Panorama Transformer for Indoor 360$$\^{}$\{$$\backslash$circ$\}$ $$ Depth Estimation},
   author={Shen, Zhijie and Lin, Chunyu and Liao, Kang and Nie, Lang and Zheng, Zishuo and Zhao, Yao},
-  journal={arXiv e-prints},
-  pages={arXiv--2203},
-  year={2022}
+  booktitle={European Conference on Computer Vision},
+  pages={195--211},
+  year={2022},
+  organization={Springer}
 }
 ```
 ```
