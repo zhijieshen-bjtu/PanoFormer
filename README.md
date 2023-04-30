@@ -46,50 +46,6 @@ And you can run the command:
 ```
 python train.py
 ```
-Your datasets and the splits shoud be organized as below:  
-SPLITS  
-```
-|-- PanoFormer
-    |-- network
-    |-- splitsm3d
-    |   |-- matterport3d_train.txt
-    |   |-- matterport3d_val.txt
-    |   |-- matterport3d_test.txt
-    |-- splitss2d3d
-    |   |-- stanford2d3d_train.txt
-    |   |-- stanford2d3d_val.txt
-    |   |-- stanford2d3d_test.txt
-    |-- ...
-    |-- ...   
-    |-- train.py
-    |-- trainer.py
-    |-- metric.py
-    |-- ...
-    |-- ...
-```
-DATASETS  
-```
-|-- datasets
-    |-- Matterport3D
-    |   |-- 17DRP5sb8fy
-    |		|-- pano_depth
-    |		|-- pano_skybox_color
-    |	|--...
-    |-- Stanford2D3D
-    |   |-- area_1
-    |   	|-- pano
-    |   		|-- depth
-    |   		|-- rgb
-    |	|-- ...   
-    |-- 3D60
-    |	|-- Matterport3D
-    |	|-- Stanford2D3D
-    |   	|-- area_1
-    |			|--xxx_color_xxx.png
-    |			|--xxx_depth_xxx.exr
-    |	|-- SunCG
-    |-- ...
-```
 # Acknowledgements
 We thank the authors of the projects below:  
 *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion)*, *[Uformer](https://github.com/ZhendongWang6/Uformer)*, *[SphereNet](https://github.com/mty1203/spherenet)*, *[DeformableAtt](https://github.com/ZhuWenjie98/DL-project/blob/main/models/deformable_attn.py)*  
