@@ -19,8 +19,8 @@ parser.add_argument("--batch_size", type=int, default=2, help="batch size")
 parser.add_argument("--num_epochs", type=int, default=200, help="number of epochs")
 
 # loading and logging settings
-parser.add_argument("--load_weights_dir", default='./tmp_s2d3d/panodepth/models/weights_1', type=str, help="folder of model to load")#, default='./tmp_abl_offset/panodepth/models/weights_49'
-parser.add_argument("--log_dir", type=str, default=os.path.join(os.path.dirname(__file__), "tmp_origin_reals2d3dforECCV2final"), help="log directory")
+parser.add_argument("--load_weights_dir", default='./tmp_s2d3d/panodepth/models/weights', type=str, help="folder of model to load")#, default='./tmp_abl_offset/panodepth/models/weights_49'
+parser.add_argument("--log_dir", type=str, default=os.path.join(os.path.dirname(__file__), "tmp_s2d3dtest"), help="log directory")
 parser.add_argument("--log_frequency", type=int, default=100, help="number of batches between each tensorboard log")
 parser.add_argument("--save_frequency", type=int, default=1, help="number of epochs between each save")
 
