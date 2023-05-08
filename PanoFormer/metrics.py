@@ -1,7 +1,5 @@
 import os
 import torch
-from newmetrics.ctu import continuity
-from newmetrics.prms import pole_RMSE
 #==========================
 # Depth Prediction Metrics
 #==========================
@@ -14,7 +12,7 @@ def compute_depth_metrics(gt, pred, mask=None, median_align=True):
 
     gt_depth[gt_depth<=0.1] = 0.1
     pred_depth[pred_depth<=0.1] = 0.1
-    gt_depth[gt_depth >= 16] = 16 #10 or 16
+    gt_depth[gt_depth >= 16] = 16
     pred_depth[pred_depth >= 16] = 16
 
 
@@ -26,7 +24,7 @@ def compute_depth_metrics(gt, pred, mask=None, median_align=True):
 
     ##########STEP 2:compute mean error###################
 
-    rmse = (gt_depth - pred_depth) ** 2 #standard RMSE function
+    rmse = (gt_depth - pred_depth) ** 2
     rmse = torch.sqrt(rmse.mean())
 
     rmse_log = (torch.log10(gt_depth) - torch.log10(pred_depth)) ** 2
@@ -40,16 +38,13 @@ def compute_depth_metrics(gt, pred, mask=None, median_align=True):
 
     log10 = torch.mean(torch.abs(torch.log10(pred / gt_depth)))
 
-    #SliceNet&OmniDepth
     mae = torch.mean(torch.abs((pred_depth - gt_depth)) / gt_depth)
     
     mre = torch.mean(((pred_depth - gt_depth)** 2) / gt_depth)
+    #mae = (gt_depth - pred_depth).abs().mean()
+    #mre = ((gt_depth - pred_depth).abs() / gt).mean()
 
-    #New metrics
-    ctu = continuity(pred_depth, gt_depth)
-    p_rmse = pole_RMSE(pred_depth, gt_depth)
-
-    return ctu, p_rmse, mre, mae, abs_, abs_rel, sq_rel, rmse, rmse_log, log10, a1, a2, a3
+    return mre, mae, abs_, abs_rel, sq_rel, rmse, rmse_log, log10, a1, a2, a3
 
 
 # From https://github.com/fyu/drn
@@ -95,8 +90,6 @@ class Evaluator(object):
         self.median_align = median_align
         # Error and Accuracy metric trackers
         self.metrics = {}
-        self.metrics["err/ctu"] = AverageMeter()
-        self.metrics["err/p_rms"] = AverageMeter()
         self.metrics["err/mre"] = AverageMeter()
         self.metrics["err/mae"] = AverageMeter()
         self.metrics["err/abs_"] = AverageMeter()
@@ -113,8 +106,6 @@ class Evaluator(object):
         """
         Resets metrics used to evaluate the model
         """
-        self.metrics["err/ctu"].reset()
-        self.metrics["err/p_rms"].reset()
         self.metrics["err/mre"].reset()
         self.metrics["err/mae"].reset()
         self.metrics["err/abs_"].reset()
@@ -133,11 +124,9 @@ class Evaluator(object):
         """
         N = gt_depth.shape[0]
 
-        ctu, p_rms, mre, mae, abs_, abs_rel, sq_rel, rms, rms_log, log10, a1, a2, a3 = \
+        mre, mae, abs_, abs_rel, sq_rel, rms, rms_log, log10, a1, a2, a3 = \
             compute_depth_metrics(gt_depth, pred_depth, mask, self.median_align)
 
-        self.metrics["err/ctu"].update(ctu, N)
-        self.metrics["err/p_rms"].update(p_rms, N)
         self.metrics["err/mre"].update(mre, N)
         self.metrics["err/mae"].update(mae, N)
         self.metrics["err/abs_"].update(abs_, N)
@@ -152,8 +141,6 @@ class Evaluator(object):
 
     def print(self, dir=None):
         avg_metrics = []
-        avg_metrics.append(self.metrics["err/ctu"].avg)
-        avg_metrics.append(self.metrics["err/p_rms"].avg)
         avg_metrics.append(self.metrics["err/mre"].avg)
         avg_metrics.append(self.metrics["err/mae"].avg)
         avg_metrics.append(self.metrics["err/abs_"].avg)
@@ -166,12 +153,12 @@ class Evaluator(object):
         avg_metrics.append(self.metrics["acc/a2"].avg)
         avg_metrics.append(self.metrics["acc/a3"].avg)
 
-        print("\n  "+ ("{:>9} | " * 13).format("ctu", "p_rms", "mre", "mae", "abs_", "abs_rel", "sq_rel", "rms", "rms_log", "log10", "a1", "a2", "a3"))
-        print(("&  {: 8.5f} " * 13).format(*avg_metrics))
+        print("\n  "+ ("{:>9} | " * 11).format("mre", "mae", "abs_", "abs_rel", "sq_rel", "rms", "rms_log", "log10", "a1", "a2", "a3"))
+        print(("&  {: 8.5f} " * 11).format(*avg_metrics))
 
         if dir is not None:
             file = os.path.join(dir, "result.txt")
             with open(file, 'w') as f:
-                print("\n  " + ("{:>9} | " * 13).format("ctu", "p_rms", "mre", "mae", "abs_", "abs_rel", "sq_rel", "rms", "rms_log",
+                print("\n  " + ("{:>9} | " * 11).format("mre", "mae", "abs_", "abs_rel", "sq_rel", "rms", "rms_log",
                                                       "log10", "a1", "a2", "a3"), file=f)
-                print(("&  {: 8.5f} " * 13).format(*avg_metrics), file=f)
+                print(("&  {: 8.5f} " * 11).format(*avg_metrics), file=f)
