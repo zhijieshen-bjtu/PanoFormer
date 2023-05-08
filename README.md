@@ -12,7 +12,11 @@
 
 
 # Update
-We updated the models trained for Stanford2D3D in this *[link(click me)], now you can download and test it!
+We updated the models trained for Stanford2D3D in this *[link(click me)](https://drive.google.com/drive/folders/1X65MTxpDpYGEpihg_MzKoDjZk0gscv3H?usp=sharing)*, now you can download and test it! If you have downloaded it and put it in the correct folder. You can run:
+```
+python trains2d3d.py
+```
+
 # Datasets
 You should download and prepare the datasets from the official webpage, *[Stanford2D3D](http://buildingparser.stanford.edu/dataset.html#Download)*, *[Matterport3D](https://niessner.github.io/Matterport/)*, *[3D60](https://vcl3d.github.io/3D60/)*. Unfortunately, PanoSunCG is not avaliable now. For Matterport3D. please follow the processing strategy in *[Unifuse](https://github.com/alibaba/UniFuse-Unidirectional-Fusion/blob/main/UniFuse/Matterport3D/README.md)*.  
 :disappointed_relieved:*Attention*  
